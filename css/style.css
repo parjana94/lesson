@@ -1,0 +1,97 @@
+.main{
+    max-width: 960px;
+    margin: 20px auto;
+}
+.l-nav{
+    float: left;
+}
+.l-li{
+    display: inline-block;
+}
+.l-ul:first-child::before{
+    content:' \25CF';
+    margin-right:0px ;
+}
+.l-a1{
+    text-transform: uppercase;
+    color: black;
+}
+.l-a{
+    margin-left: 50px;
+    text-transform: capitalize;
+    color: black;
+}
+.r-nav{
+    float: right;
+}
+.r-li{
+    display: inline-block;
+}
+.r-a1{
+    text-transform: uppercase;
+    margin-right: 50px;
+    color: black;
+}
+.r-a{
+    text-transform: uppercase;
+    color: black;
+    
+}
+.clear{
+    clear: both;
+}
+.header-banner{
+    position: relative;
+    top:30px;
+}
+.header-image{
+    width: 960px;
+    height: 150px;
+    
+}
+.blur{
+    position: absolute;
+    top: 0;
+    width: 960px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.header-text{
+    position:absolute;
+    top:30px;
+    left: 30px;
+}
+.title1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+}
+.title2{
+    margin-top:8px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color:white;
+    font-size: 20px;
+}
+.header-text{
+    color: white;
+}
+.read-bar{
+    position: absolute;
+    top:125px;
+    left: 30px;
+}
+.header-a{
+    padding: 7px 50px;
+    background-color: aquamarine;
+    color:black;
+    border-radius: 10px;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+
+}
+.header-a:hover{
+    background-color: cadetblue;
+    color: white;
+}
