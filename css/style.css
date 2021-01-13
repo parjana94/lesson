@@ -95,3 +95,94 @@
     background-color: cadetblue;
     color: white;
 }
+.banner-ul{
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+.banner-li{
+    display: inline-block;
+}
+.banner-a1{
+    margin-right: 30px;
+    color: white;
+    text-transform: capitalize;
+}
+.banner-a2{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: lightblue;
+    border: 2px solid white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+
+
+}
+.banner-a2:hover{
+    color: black;
+    border: 2px solid blue
+
+}
+.news-wrapper{
+    margin-top:70px;
+    width: 680px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.news-header{
+    font-size: 22px;
+    text-transform: capitalize;
+    float: left;
+    margin-left: 20px;
+}
+.news-header::before{
+    content:' \25CF';
+}
+.full-list{
+    text-transform: uppercase;
+    color: black;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.news{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.news-img{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.news-text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.title-s{
+    font-size: 14px;
+}
+.title-l{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text-p{
+    margin-top: 10px;
+    width: 400px;
+}
+.right-wrapper{
+    margin-top: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+.r-img{
+    width: 250px;
+    margin-left: 20px;
+}
